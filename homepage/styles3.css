@@ -1,0 +1,138 @@
+body {
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/intel-wallpaper-download-20-920x518.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+#navbar {
+left: 40px;
+  min-width: 290px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  padding: 20px;
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/04/intel-wallpaper-download-20-920x518.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#default {
+  font-size: 1.4rem;
+}
+
+nav > header {
+  font-size: 2em;
+  text-align: center;
+}
+
+#header {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.custom_block {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.tab_1 {
+  padding-top: 1.5em;
+  flex: 0 0 33%;
+  text-align: left;
+  padding-left: 50px;
+  border: 0px solid #e1e2e6;
+  border-top: none;
+  border-left: none;
+}
+
+@media only screen and (max-width: 768px)
+.tab_1 {
+    padding-top: 1.5em;
+    flex: 0 0 100%;
+    text-align: left;
+    padding-left: 50px;
+    border: 0.5px solid #e1e2e6;
+    border-top: none;
+    border-left: none;
+}
+
+@media only screen and (max-width: 768px)
+.tab_1, .custom_block {
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px)
+.tab_1, .custom_block {
+    padding-top: 0;
+}
+
+h1 {
+  display: block;
+  text-align: left;
+  margin: 0px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 20%; /* Full height */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  border-radius: 1.2rem;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#link_1:link, #link_1:visited {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+#link_1:hover, #link_1:active {
+  text-decoration: underline;
+  color: #f0a10f;
+}
+
+#par_list {
+  color: white;
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 25px;
+  list-style-type: circle;
+}
+
+#service {
+  width: 50rem;
+  padding: 10px;
+  margin: 0px;
+}

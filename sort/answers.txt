@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: because in this sort the worst case O(n^2) is biggest and the best case Ω(n) is less than in sort 3
+
+sort2 uses: merge sort
+
+How do you know?: because in this sort the worst case O(n*log(n)) is least and the best case Ω(n*log(n)) is biggest
+
+sort3 uses: selection sort
+
+How do you know?: because in this sort the best case Ω(n^2) is biggest and the average value much more than in sort 1

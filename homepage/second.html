@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles2.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1 id="title">
+        Survey form
+      </h1>
+      <p id="description">
+        Thank you for taking the time to help us to improve our platform
+      </p>
+      <form id="survey-form">
+        <div class="form-group">
+      <fieldset>
+        <legend class="legend">Insert your data</legend>
+        <label id="name-label" for="name">Username: </label>
+              <input
+               type="text"
+               id="name"
+               name="name"
+               class="form-control"
+               placeholder="Enter your name"
+               required
+              />
+        <br>
+        <label id="email-label" for="email">Email: </label>
+            <input
+             type="email"
+             id="email"
+             name="email"
+             class="form-control"
+             placeholder="Enter your email"
+             required
+            />
+      <br>
+      <label id="number-label" for="number">Age: </label>
+            <input
+             type="number"
+             id="number"
+             name="number"
+             min="10"
+             max="99"
+             class="form-control"
+             placeholder="Age"
+            />
+      <br>
+      </fieldset>
+        </div>
+
+       <div class="form-group">
+        <fieldset>
+          <legend class="legend">Highest level of education</legend>
+        <input
+               type="radio"
+               name="user-recommend"
+               id="1-choice"
+               class="input-radio"
+               value="Primary"
+               checked>
+               </input>
+      <label id="other-text">Primary</label><br>
+        <input
+               type="radio"
+               name="user-recommend"
+               id="2-choice"
+               class="input-radio"
+               value="Secondary">
+        </input>
+      <label id="other-text">Secondary</label><br>
+      <input
+             type="radio"
+             name="user-recommend"
+             id="3-choice"
+             class="input-radio"
+             value="Bachelors/associate">
+      </input>
+      <label id="other-text">Bachelors/associate</label><br>
+      <input
+             type="radio"
+             name="user-recommend"
+             id="4-choice"
+             class="input-radio"
+             value="Masters">
+      </input>
+      <label id="other-text">Masters</label><br>
+      <input
+             type="radio"
+             name="user-recommend"
+             id="5-choice"
+             class="input-radio"
+             value="PhD">
+      <label id="other-text">PhD</label><br>
+      </fieldset>
+      </div>
+
+      <div class="form-group">
+        <fieldset>
+          <legend class="legend">To which gender identity do you most identify?</legend>
+          <select id="dropdown" class="form-control" reqired>
+            <option disabled selected value>Select an option</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Transgender Female">Transgender Female</option>
+            <option value="Transgender Male">Transgender Male</option>
+            <option value="Gender Variant">Gender Variant/Non-conforming</option>
+            <option value="no answer">Prefer Not to Answer</option>
+          </select>
+        </fieldset>
+      </div>
+
+      <div class="form-group">
+          <fieldset>
+            <legend class="legend">Skills</legend>
+            <input
+                   type="checkbox"
+                   value="Communication skills"
+                   class="input-checkbox">
+            <label id="other-text">Communication skills (verbal & written)</label>
+            <input
+                   type="checkbox"
+                   value="Strong work ethic"
+                   class="input-checkbox">
+            <label id="other-text">Strong work ethic</label>
+            <input
+                   type="checkbox"
+                   value="Teamwork skills"
+                   class="input-checkbox">
+            <label id="other-text">Teamwork skills</label>
+            <input
+                   type="checkbox"
+                   value="Initiative"
+                   class="input-checkbox">
+            <label id="other-text">Initiative</label><br>
+            <input
+                   type="checkbox"
+                   value="Problem-solving skills"
+                   class="input-checkbox">
+            <label id="other-text">Problem-solving skills</label>
+            <input
+                   type="checkbox"
+                   value="Analytical skills"
+                   class="input-checkbox">
+            <label id="other-text">Analytical skills</label>
+            <input
+                   type="checkbox"
+                   value="Computer skills"
+                   class="input-checkbox">
+            <label id="other-text">Computer skills</label>
+            <input
+                   type="checkbox"
+                   value="Technical skills"
+                   class="input-checkbox">
+            <label id="other-text">Technical skills</label>
+            <input
+                   type="checkbox"
+                   value="Organizational skills"
+                   class="input-checkbox">
+            <label id="other-text">Organizational skills</label>
+          </fieldset>
+      </div>
+
+         <div class="form-group">
+            <p id="other-text">Any comments or suggestions?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here...">
+             </textarea>
+          </div>
+
+      <div class="form-group">
+        <button
+               type="submit"
+               id="submit"
+               class="button-text">
+          Submit
+        </button>
+      </div>
+    </body>
+      <footer>Copyright &copy Vladilslav Gabidullin</footer>
+      </form>
+</html>
